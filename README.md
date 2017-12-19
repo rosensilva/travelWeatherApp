@@ -14,3 +14,30 @@ the visual editor (Composer) and other tools.
 5) When tripWeather.bal service is up and running use `$ curl -v "http://localhost:9090/travel/weather?start=Galle&end=Jaffna&waypoints=3"`
 6) replace the query parameters of `start` with city name of the starting location , `end` with destination of trip and `waypoints` with the 
 number of cities that you need weather details.
+7) Results will look something like this , ie: a json array with weather details of cities in-between 
+```json {
+    "Galle": {
+        "Name": "Galle",
+        "Main": "Clear",
+        "temperature": 301.603,
+        "humidity": 95
+    },
+    "Minuwangoda": {
+        "Name": "Minuwangoda",
+        "Main": "Clouds",
+        "temperature": 302.15,
+        "humidity": 62
+    },
+    "Bandara Bulankulama": {
+        "Name": "Bandara Bulankulama",
+        "Main": "Clouds",
+        "temperature": 301.753,
+        "humidity": 86
+    },
+    "Jaffna": {
+        "Name": "Jaffna",
+        "Main": "Clouds",
+        "temperature": 300.378,
+        "humidity": 98
+    }
+ }
