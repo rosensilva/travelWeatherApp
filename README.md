@@ -15,29 +15,29 @@ the visual editor (Composer) and other tools.
 6) replace the query parameters of `start` with city name of the starting location , `end` with destination of trip and `waypoints` with the 
 number of cities that you need weather details.
 7) Results will look something like this , ie: a json array with weather details of cities in-between 
-```json {
-    "Galle": {
-        "Name": "Galle",
-        "Main": "Clear",
-        "temperature": 301.603,
-        "humidity": 95
-    },
-    "Minuwangoda": {
-        "Name": "Minuwangoda",
+```json{
+    "Colombo": {
+        "Name": "Colombo",
         "Main": "Clouds",
         "temperature": 302.15,
         "humidity": 62
     },
-    "Bandara Bulankulama": {
-        "Name": "Bandara Bulankulama",
+    "Gampaha": {
+        "Name": "Gampaha",
         "Main": "Clouds",
-        "temperature": 301.753,
-        "humidity": 86
+        "temperature": 302.15,
+        "humidity": 62
     },
-    "Jaffna": {
-        "Name": "Jaffna",
+    "Kadugannawa": {
+        "Name": "Kadugannawa",
         "Main": "Clouds",
-        "temperature": 300.378,
-        "humidity": 98
+        "temperature": 302.15,
+        "humidity": 62
+    },
+    "Kandy": {
+        "Name": "Kandy",
+        "Main": "Clear",
+        "temperature": 301.003,
+        "humidity": 71
     }
- }
+}
